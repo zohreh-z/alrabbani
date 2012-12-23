@@ -26,13 +26,13 @@ The website for the **Ayatollah Rabbani**
 
 ###The Team
 * [**Zohreh Zahedi**](http://github.com/zohreh-z) on Github
-* [**Mahla Delpak**](https://github.com/mahlad) on Github
+
 
 ### All rights reserved ###
-Please note that ??????.??? is a curated site and that we reserve the right to refuse any listing for any reason.
+Please note that alrabbani.ir is a curated site and that we reserve the right to refuse any listing for any reason.
 
-The [??????.???](http://??????.???) code and website is released under a MIT License.
+The [alrabbani.ir](http://alrabbani.ir) code and website is released under a MIT License.
 
 Our sample for designing is this site : http://www.reyshahri.ir/
 
-Produced by team ????? (atumn 2012)
+Produced (atumn 2012)
