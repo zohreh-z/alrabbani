@@ -33,6 +33,6 @@ Please note that alrabbani.ir is a curated site and that we reserve the right to
 
 The [alrabbani.ir](http://alrabbani.ir) code and website is released under a MIT License.
 
-Our sample for designing is this site : http://www.reyshahri.ir/
+Our sample for designing is this site : http://www.reyshahri.ir/ , http://themeforest.net/item/politic-campaign-political-wp-buddypress-theme/full_screen_preview/2564042 , http://themeforest.net/item/wordpress-politico/full_screen_preview/139979
 
 Produced (atumn 2012)
