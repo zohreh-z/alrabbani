@@ -39,7 +39,7 @@ body {
 			height: 228px;
 			text-align: center;
 			background: url(images/header_bg.jpg) no-repeat center top;
-			z-index: 1000;
+			/*z-index: 1000;*/
 
 			a.logo{
 				display: block;
@@ -57,19 +57,22 @@ body {
 
 			nav#main-menu{
 				text-align: left;
-				width: 100%;
+				width: 980px;
+				margin: 0 auto;
 				position: absolute;
 				bottom: 0px;
 				left: 0px;
 				height: 38px;
 				padding: 12px 0 0;
-				z-index: 1000;
+			
+				/*z-index: 1000;*/
 
 				ul{
-					float: right;
-
+					/*float: right;*/
+					width: 650px;
+					
+					margin: 0 auto;
 					li{
-						/*position: absolute;*/
 						list-style-type: none;
 						margin-left: 20px;
 						font-size: 17px;
@@ -114,13 +117,13 @@ body {
 					position: relative;
 					top: 28px;
 					left: 0px;
-					z-index: 1;
+					/*z-index: 1;*/
 					overflow: hidden;
 					padding: 25px 0px;
 					height: 300px;
 					width: 1100px;
 					background: url(images/slider_bg.png) no-repeat;
-					z-index: 500px;
+					/*z-index: 500px;*/
 
 					div.content-slide{
 						margin: 0 auto;
@@ -160,14 +163,14 @@ body {
 				ul.main-sidbar{
 					li{
 						list-style: none;
-						margin: 0 0 60px;
+						margin: 0 0 20px;
 						font-size: 12px;
 						form#search{
 							width: 250px;
 							height: 50px;
 							background: url(images/search_bg.png) no-repeat center center;
 							position: relative;
-							z-index: 100;
+							/*z-index: 100;*/
 
 							#s{
 								width: 184px;
@@ -181,6 +184,67 @@ body {
 
 								&:focus{
 									outline:none;
+								}
+							}
+						}
+						.hadis{
+							width: 250px;
+							height: 250px;
+							background: url('images/hadis.png') no-repeat;
+							/*overflow: auto;*/
+							div.top-hadis{
+								height:50px;
+								width: 90px;
+								margin:0 auto;
+								line-height: 40px;
+
+								h2{
+									font-size: 25px;
+									color: #555;
+									text-shadow: 0px 1px 1px rgba(255, 255, 255, 1);
+								}
+							}
+							div.content-hadis{
+								overflow: auto;
+								height: 190px;
+
+								h3{
+									font-size: 19px;
+									text-align: center;
+									padding:0 0 8px;
+								}
+
+								p{
+									font-size: 16px;
+									line-height: 20px;
+									padding:0 15px;
+								}
+
+								ul.kotob{
+									li{
+										margin: 10px 0;
+										padding-right: 25px;
+										background: url('images/eslim2.png') no-repeat  180px -1px;
+
+										a{
+											font-size: 17px;
+											color: #555;
+											text-shadow: 0px 1px 1px rgba(255, 255, 255, 1);
+											
+										}
+									}
+								}
+								/****amar site****/
+								iframe{
+									border: none !important;
+									margin-right: 50px;
+								}
+							}
+							#oghat{
+								iframe{
+									border: none !important;
+									margin-right: 20px;
+									
 								}
 							}
 						}
@@ -215,4 +279,5 @@ body {
 		overflow: hidden;
 		margin: 0 auto;
 	}
+
 }
