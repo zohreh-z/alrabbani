@@ -13,6 +13,7 @@ body {
 	font-family: 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing : antialiased;
 	color: @text-color;
+	direction:rtl;
 	background: #EAEAEA url('images/background_tile.jpg') repeat;
 
 	a{
@@ -74,33 +75,26 @@ body {
 						font-size: 17px;
 
 					a{
-						/*display: block;
-						line-height: 27px;
-						color: #888;
-						margin: 1px 2px 0px;
-						padding: 0px 20px;
-						text-shadow: 0px 1px 1px rgba(255, 255, 255, .9);
-					&:hover{*/
-							display: block;
-							padding: 5px 10px;
-							color: #555;
-							border: 1px solid white;
-							-webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, .3);
-							-moz-box-shadow: 0px 0px 1px rgba(0,0,0,.3);
-							box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
-							background: #E5E5E5;
-							margin: 0px 1px;
-							background: -webkit-gradient(linear, left top, left bottom, from(#E5E5E5), to(whiteSmoke));
-							background: -moz-linear-gradient(top, #E5E5E5, whiteSmoke);
-							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#f5f5f5');
-							-moz-border-radius: 3px;
-							-webkit-border-radius: 3px;
-							border-radius: 3px;
+						display: block;
+						padding: 5px 10px;
+						color: #555;
+						border: 1px solid white;
+						-webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, .3);
+						-moz-box-shadow: 0px 0px 1px rgba(0,0,0,.3);
+						box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+						background: #E5E5E5;
+						margin: 0px 1px;
+						background: -webkit-gradient(linear, left top, left bottom, from(#E5E5E5), to(whiteSmoke));
+						background: -moz-linear-gradient(top, #E5E5E5, whiteSmoke);
+						filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#f5f5f5');
+						-moz-border-radius: 3px;
+						-webkit-border-radius: 3px;
+						border-radius: 3px;
 
-							&:hover{
-								color:red;
-							}
+						&:hover{
+							color:red;
 						}
+					}
 						float: right;
 					}
 				}
@@ -108,12 +102,117 @@ body {
 		}
 
 		div.slide{
-			outline: 1px dashed red;
-			height: 420px;
-			background: #12548C;
-			background: -webkit-gradient(linear, left top, left bottom, from(#25659D), to(#00427B));
-			background: -moz-linear-gradient(top, #25659D, #00427B);
-			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#25659D', endColorstr='#00427b');
+			height: 400px;
+			background: #154c72;
+			
+			div.sliderstyle{
+				background: url(images/shadow.png) repeat-x left top;
+				height: 13px;
+
+				div#slider{
+					margin: 0 auto;
+					position: relative;
+					top: 28px;
+					left: 0px;
+					z-index: 1;
+					overflow: hidden;
+					padding: 25px 0px;
+					height: 300px;
+					width: 1100px;
+					background: url(images/slider_bg.png) no-repeat;
+					z-index: 500px;
+
+					div.content-slide{
+						margin: 0 auto;
+						position: relative;
+						height: 295px;
+						width: 918px;
+						overflow: hidden;
+						/*outline: 1px dashed red;*/
+					}
+				}
+			}
 		}
+	}
+	/**************** SECTION CONTAINER ***************/
+	section.content-container{
+		width: 100%;
+		background: url(images/container_tile.jpg) repeat-x left top;
+		margin-top: 27px;
+
+		div.container{
+			background: url(images/counter_bg.jpg) no-repeat center top;
+			padding: 35px 0 65px;
+
+			.text-content{
+				text-align: center;
+				margin-bottom: 120px;
+				line-height: 40px;
+				color: #3B5998;
+			}
+			.sidebar-right{
+				float: right;
+				width: 260px;
+				/*min-height:20px;*/
+				padding-right: 20px;
+				text-align: justify;
+
+				ul.main-sidbar{
+					li{
+						list-style: none;
+						margin: 0 0 60px;
+						font-size: 12px;
+						form#search{
+							width: 250px;
+							height: 50px;
+							background: url(images/search_bg.png) no-repeat center center;
+							position: relative;
+							z-index: 100;
+
+							#s{
+								width: 184px;
+								height: 47px;
+								line-height: 47px;
+								padding: 0px;
+								margin: 0 0 0 15px;
+								float: left;
+								background: none;
+								border: none;
+
+								&:focus{
+									outline:none;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.main{
+				width: 590px;
+				float: left;
+				padding-left: 20px;
+				text-align: justify;
+				/*min-height: 20px;*/
+
+				ul.main-content{
+					li{
+						margin: 0 0 60px;
+						padding: 0 0 60px;
+						background: url(images/post_divider.png) no-repeat 1px bottom;
+					}
+				}
+			}
+		}
+	}
+	a.bottom{
+		outline: none;
+		display: block;
+		height: 82px;
+		width: 960px;
+		background: url(images/back_top.jpg) no-repeat center top;
+		text-indent: -999px;
+		overflow: hidden;
+		margin: 0 auto;
 	}
 }
