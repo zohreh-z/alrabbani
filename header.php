@@ -49,5 +49,5 @@
 	<section class="content-container">
 		<div class="container cover">
 			<h1 class="text-content">
-				به سایت رسمی آیت الله محمد ابراهیم ربانی خوش آمدید
+				به سایت رسمی آیت الله محمد ابراهیم ربانی مهمویی خوش آمدید
 			</h1>
