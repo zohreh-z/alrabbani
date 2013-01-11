@@ -11,6 +11,7 @@
 	<script type="text/javascript" src="scripts/jquery.js"></script>
 	<script type="text/javascript" src="scripts/jquery-ui.js"></script>
 	<script type="text/javascript" src="scripts/lightbox.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
 	<!--[if IE]>
 		<script type="text/javascript" src="scripts/html5.js"></script>
 	<![endif]-->
@@ -27,7 +28,7 @@
 					<li><a href="./about.php">معرفی شخصیت</a></li>
 					<li><a href="./kotob.php">آثار</a></li>
 					<li><a href="./sertificate.php">مدارک اجتهاد</a></li>
-					<li><a href="#">آلبوم تصاویر</a></li>
+					<li><a href="./gallery.php">آلبوم تصاویر</a></li>
 					<li><a href="./question.php">پرسش و پاسخ</a></li>
 					<li><a href="./contact.php">ارتباط با ما</a></li>
 				</ul>
